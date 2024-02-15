@@ -4,5 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: ordinaryLinuxProgramming
+    tty: true
     volumes:
       - .:/workspace
